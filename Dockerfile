@@ -1,5 +1,5 @@
 # Use the official OpenJDK 11 as a base image
-FROM openjdk:11-jdk-slim
+FROM openjdk:17-oraclelinux8
 
 # Set the working directory in the container
 WORKDIR /app
